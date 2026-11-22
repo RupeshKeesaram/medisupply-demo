@@ -1,0 +1,7 @@
+version: 1
+compose_file: compose.radius.yaml
+app:
+  service: web
+  port: 3000
+  health_path: /health
+  ready_timeout_seconds: 120

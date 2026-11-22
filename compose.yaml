@@ -1,0 +1,19 @@
+services:
+  web:
+    build: .
+    user: "10001:10001"
+    ports:
+      - "127.0.0.1:3200:3000"
+    environment:
+      MEDISUPPLY_DATABASE: "/data/medisupply.sqlite3"
+    volumes:
+      - medisupply-data:/data
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+volumes:
+  medisupply-data: {}

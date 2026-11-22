@@ -1,0 +1,8 @@
+.git
+.impeccable
+__pycache__
+data
+.venv
+.env
+tests
+test-results

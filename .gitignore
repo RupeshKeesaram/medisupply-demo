@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+data/
+.venv/
+.env
+test-results/
+.impeccable/questions/
+.impeccable/mocks/
+.impeccable/review/
+.impeccable/config.local.json

@@ -1,0 +1,587 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-16T03:19:12.113Z",
+  "title": "Design System: MediSupply",
+  "extensions": {
+    "colorMeta": {
+      "navy": {
+        "role": "secondary",
+        "displayName": "Ink Navy",
+        "tonalRamp": [
+          "oklch(15% 0.0121 247.7)",
+          "oklch(25% 0.0242 247.7)",
+          "oklch(37% 0.0387 247.7)",
+          "oklch(49% 0.0483 247.7)",
+          "oklch(61% 0.0483 247.7)",
+          "oklch(73% 0.0483 247.7)",
+          "oklch(85% 0.0290 247.7)",
+          "oklch(95% 0.0097 247.7)"
+        ]
+      },
+      "navy-active": {
+        "role": "secondary",
+        "displayName": "Active Navy",
+        "tonalRamp": [
+          "oklch(15% 0.0135 242.1)",
+          "oklch(25% 0.0270 242.1)",
+          "oklch(37% 0.0431 242.1)",
+          "oklch(49% 0.0539 242.1)",
+          "oklch(61% 0.0539 242.1)",
+          "oklch(73% 0.0539 242.1)",
+          "oklch(85% 0.0323 242.1)",
+          "oklch(95% 0.0108 242.1)"
+        ]
+      },
+      "teal": {
+        "role": "primary",
+        "displayName": "Eucalyptus",
+        "tonalRamp": [
+          "oklch(15% 0.0219 183.6)",
+          "oklch(25% 0.0438 183.6)",
+          "oklch(37% 0.0701 183.6)",
+          "oklch(49% 0.0877 183.6)",
+          "oklch(61% 0.0877 183.6)",
+          "oklch(73% 0.0877 183.6)",
+          "oklch(85% 0.0526 183.6)",
+          "oklch(95% 0.0175 183.6)"
+        ]
+      },
+      "teal-dark": {
+        "role": "primary",
+        "displayName": "Forest",
+        "tonalRamp": [
+          "oklch(15% 0.0194 184.1)",
+          "oklch(25% 0.0388 184.1)",
+          "oklch(37% 0.0621 184.1)",
+          "oklch(49% 0.0776 184.1)",
+          "oklch(61% 0.0776 184.1)",
+          "oklch(73% 0.0776 184.1)",
+          "oklch(85% 0.0466 184.1)",
+          "oklch(95% 0.0155 184.1)"
+        ]
+      },
+      "teal-wash": {
+        "role": "primary",
+        "displayName": "Eucalyptus Wash",
+        "tonalRamp": [
+          "oklch(15% 0.0032 172.4)",
+          "oklch(25% 0.0064 172.4)",
+          "oklch(37% 0.0102 172.4)",
+          "oklch(49% 0.0128 172.4)",
+          "oklch(61% 0.0128 172.4)",
+          "oklch(73% 0.0128 172.4)",
+          "oklch(85% 0.0077 172.4)",
+          "oklch(95% 0.0026 172.4)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0103 242.7)",
+          "oklch(25% 0.0205 242.7)",
+          "oklch(37% 0.0329 242.7)",
+          "oklch(49% 0.0411 242.7)",
+          "oklch(61% 0.0411 242.7)",
+          "oklch(73% 0.0411 242.7)",
+          "oklch(85% 0.0246 242.7)",
+          "oklch(95% 0.0082 242.7)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Slate",
+        "tonalRamp": [
+          "oklch(15% 0.0075 243.1)",
+          "oklch(25% 0.0150 243.1)",
+          "oklch(37% 0.0240 243.1)",
+          "oklch(49% 0.0299 243.1)",
+          "oklch(61% 0.0299 243.1)",
+          "oklch(73% 0.0299 243.1)",
+          "oklch(85% 0.0180 243.1)",
+          "oklch(95% 0.0060 243.1)"
+        ]
+      },
+      "ground": {
+        "role": "neutral",
+        "displayName": "Cool Ground",
+        "tonalRamp": [
+          "oklch(15% 0.0006 228.8)",
+          "oklch(25% 0.0013 228.8)",
+          "oklch(37% 0.0020 228.8)",
+          "oklch(49% 0.0025 228.8)",
+          "oklch(61% 0.0025 228.8)",
+          "oklch(73% 0.0025 228.8)",
+          "oklch(85% 0.0015 228.8)",
+          "oklch(95% 0.0005 228.8)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Light Rule",
+        "tonalRamp": [
+          "oklch(15% 0.0019 228.9)",
+          "oklch(25% 0.0038 228.9)",
+          "oklch(37% 0.0061 228.9)",
+          "oklch(49% 0.0077 228.9)",
+          "oklch(61% 0.0077 228.9)",
+          "oklch(73% 0.0077 228.9)",
+          "oklch(85% 0.0046 228.9)",
+          "oklch(95% 0.0015 228.9)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "tonalRamp": [
+          "oklch(15% 0.0000 0)",
+          "oklch(25% 0.0000 0)",
+          "oklch(37% 0.0000 0)",
+          "oklch(49% 0.0000 0)",
+          "oklch(61% 0.0000 0)",
+          "oklch(73% 0.0000 0)",
+          "oklch(85% 0.0000 0)",
+          "oklch(95% 0.0000 0)"
+        ]
+      },
+      "danger": {
+        "role": "tertiary",
+        "displayName": "Danger",
+        "tonalRamp": [
+          "oklch(15% 0.0366 23.7)",
+          "oklch(25% 0.0732 23.7)",
+          "oklch(37% 0.1171 23.7)",
+          "oklch(49% 0.1463 23.7)",
+          "oklch(61% 0.1463 23.7)",
+          "oklch(73% 0.1463 23.7)",
+          "oklch(85% 0.0878 23.7)",
+          "oklch(95% 0.0293 23.7)"
+        ]
+      },
+      "danger-wash": {
+        "role": "tertiary",
+        "displayName": "Danger Wash",
+        "tonalRamp": [
+          "oklch(15% 0.0042 31.1)",
+          "oklch(25% 0.0084 31.1)",
+          "oklch(37% 0.0134 31.1)",
+          "oklch(49% 0.0168 31.1)",
+          "oklch(61% 0.0168 31.1)",
+          "oklch(73% 0.0168 31.1)",
+          "oklch(85% 0.0101 31.1)",
+          "oklch(95% 0.0034 31.1)"
+        ]
+      },
+      "amber": {
+        "role": "tertiary",
+        "displayName": "Amber",
+        "tonalRamp": [
+          "oklch(15% 0.0260 69.6)",
+          "oklch(25% 0.0520 69.6)",
+          "oklch(37% 0.0832 69.6)",
+          "oklch(49% 0.1040 69.6)",
+          "oklch(61% 0.1040 69.6)",
+          "oklch(73% 0.1040 69.6)",
+          "oklch(85% 0.0624 69.6)",
+          "oklch(95% 0.0208 69.6)"
+        ]
+      },
+      "amber-wash": {
+        "role": "tertiary",
+        "displayName": "Amber Wash",
+        "tonalRamp": [
+          "oklch(15% 0.0062 81.1)",
+          "oklch(25% 0.0124 81.1)",
+          "oklch(37% 0.0199 81.1)",
+          "oklch(49% 0.0248 81.1)",
+          "oklch(61% 0.0248 81.1)",
+          "oklch(73% 0.0248 81.1)",
+          "oklch(85% 0.0149 81.1)",
+          "oklch(95% 0.0050 81.1)"
+        ]
+      },
+      "focus": {
+        "role": "tertiary",
+        "displayName": "Focus Eucalyptus",
+        "tonalRamp": [
+          "oklch(15% 0.0244 183.8)",
+          "oklch(25% 0.0489 183.8)",
+          "oklch(37% 0.0782 183.8)",
+          "oklch(49% 0.0977 183.8)",
+          "oklch(61% 0.0977 183.8)",
+          "oklch(73% 0.0977 183.8)",
+          "oklch(85% 0.0586 183.8)",
+          "oklch(95% 0.0195 183.8)"
+        ]
+      },
+      "control-line": {
+        "role": "neutral",
+        "displayName": "Control Rule",
+        "tonalRamp": [
+          "oklch(15% 0.0032 228.9)",
+          "oklch(25% 0.0064 228.9)",
+          "oklch(37% 0.0103 228.9)",
+          "oklch(49% 0.0129 228.9)",
+          "oklch(61% 0.0129 228.9)",
+          "oklch(73% 0.0129 228.9)",
+          "oklch(85% 0.0077 228.9)",
+          "oklch(95% 0.0026 228.9)"
+        ]
+      },
+      "submitted": {
+        "role": "tertiary",
+        "displayName": "Submitted Slate",
+        "tonalRamp": [
+          "oklch(15% 0.0135 249.0)",
+          "oklch(25% 0.0270 249.0)",
+          "oklch(37% 0.0431 249.0)",
+          "oklch(49% 0.0539 249.0)",
+          "oklch(61% 0.0539 249.0)",
+          "oklch(73% 0.0539 249.0)",
+          "oklch(85% 0.0323 249.0)",
+          "oklch(95% 0.0108 249.0)"
+        ]
+      },
+      "submitted-wash": {
+        "role": "tertiary",
+        "displayName": "Submitted Wash",
+        "tonalRamp": [
+          "oklch(15% 0.0021 247.9)",
+          "oklch(25% 0.0043 247.9)",
+          "oklch(37% 0.0069 247.9)",
+          "oklch(49% 0.0086 247.9)",
+          "oklch(61% 0.0086 247.9)",
+          "oklch(73% 0.0086 247.9)",
+          "oklch(85% 0.0052 247.9)",
+          "oklch(95% 0.0017 247.9)"
+        ]
+      },
+      "processing": {
+        "role": "tertiary",
+        "displayName": "Processing Amber",
+        "tonalRamp": [
+          "oklch(15% 0.0251 73.8)",
+          "oklch(25% 0.0503 73.8)",
+          "oklch(37% 0.0804 73.8)",
+          "oklch(49% 0.1005 73.8)",
+          "oklch(61% 0.1005 73.8)",
+          "oklch(73% 0.1005 73.8)",
+          "oklch(85% 0.0603 73.8)",
+          "oklch(95% 0.0201 73.8)"
+        ]
+      },
+      "processing-wash": {
+        "role": "tertiary",
+        "displayName": "Processing Wash",
+        "tonalRamp": [
+          "oklch(15% 0.0082 83.7)",
+          "oklch(25% 0.0164 83.7)",
+          "oklch(37% 0.0263 83.7)",
+          "oklch(49% 0.0328 83.7)",
+          "oklch(61% 0.0328 83.7)",
+          "oklch(73% 0.0328 83.7)",
+          "oklch(85% 0.0197 83.7)",
+          "oklch(95% 0.0066 83.7)"
+        ]
+      },
+      "shipped": {
+        "role": "tertiary",
+        "displayName": "Shipped Blue",
+        "tonalRamp": [
+          "oklch(15% 0.0255 263.1)",
+          "oklch(25% 0.0510 263.1)",
+          "oklch(37% 0.0815 263.1)",
+          "oklch(49% 0.1019 263.1)",
+          "oklch(61% 0.1019 263.1)",
+          "oklch(73% 0.1019 263.1)",
+          "oklch(85% 0.0612 263.1)",
+          "oklch(95% 0.0204 263.1)"
+        ]
+      },
+      "shipped-wash": {
+        "role": "tertiary",
+        "displayName": "Shipped Wash",
+        "tonalRamp": [
+          "oklch(15% 0.0043 264.5)",
+          "oklch(25% 0.0087 264.5)",
+          "oklch(37% 0.0139 264.5)",
+          "oklch(49% 0.0174 264.5)",
+          "oklch(61% 0.0174 264.5)",
+          "oklch(73% 0.0174 264.5)",
+          "oklch(85% 0.0104 264.5)",
+          "oklch(95% 0.0035 264.5)"
+        ]
+      },
+      "positive": {
+        "role": "tertiary",
+        "displayName": "Positive Green",
+        "tonalRamp": [
+          "oklch(15% 0.0219 153.9)",
+          "oklch(25% 0.0439 153.9)",
+          "oklch(37% 0.0702 153.9)",
+          "oklch(49% 0.0878 153.9)",
+          "oklch(61% 0.0878 153.9)",
+          "oklch(73% 0.0878 153.9)",
+          "oklch(85% 0.0527 153.9)",
+          "oklch(95% 0.0176 153.9)"
+        ]
+      },
+      "positive-wash": {
+        "role": "tertiary",
+        "displayName": "Positive Wash",
+        "tonalRamp": [
+          "oklch(15% 0.0039 154.5)",
+          "oklch(25% 0.0079 154.5)",
+          "oklch(37% 0.0126 154.5)",
+          "oklch(49% 0.0157 154.5)",
+          "oklch(61% 0.0157 154.5)",
+          "oklch(73% 0.0157 154.5)",
+          "oklch(85% 0.0094 154.5)",
+          "oklch(95% 0.0031 154.5)"
+        ]
+      },
+      "cancelled": {
+        "role": "neutral",
+        "displayName": "Cancelled Slate",
+        "tonalRamp": [
+          "oklch(15% 0.0062 241.8)",
+          "oklch(25% 0.0124 241.8)",
+          "oklch(37% 0.0198 241.8)",
+          "oklch(49% 0.0247 241.8)",
+          "oklch(61% 0.0247 241.8)",
+          "oklch(73% 0.0247 241.8)",
+          "oklch(85% 0.0148 241.8)",
+          "oklch(95% 0.0049 241.8)"
+        ]
+      },
+      "cancelled-wash": {
+        "role": "neutral",
+        "displayName": "Cancelled Wash",
+        "tonalRamp": [
+          "oklch(15% 0.0009 247.9)",
+          "oklch(25% 0.0017 247.9)",
+          "oklch(37% 0.0028 247.9)",
+          "oklch(49% 0.0034 247.9)",
+          "oklch(61% 0.0034 247.9)",
+          "oklch(73% 0.0034 247.9)",
+          "oklch(85% 0.0021 247.9)",
+          "oklch(95% 0.0007 247.9)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The desktop sign-in story headline."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Page titles; responsive sizes are documented in Layout."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "General secondary headings."
+      },
+      "section-title": {
+        "displayName": "Section Title",
+        "purpose": "Recurring panel headings."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Root reading and form-control text."
+      },
+      "table-body": {
+        "displayName": "Table Body",
+        "purpose": "Dense table content."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "General form labels."
+      },
+      "table-label": {
+        "displayName": "Table Label",
+        "purpose": "Table headers."
+      },
+      "metric": {
+        "displayName": "Metric",
+        "purpose": "Overview summary figures."
+      }
+    },
+    "shadows": [
+      {
+        "name": "selected-role",
+        "value": "0 2px 4px #00000010",
+        "purpose": "The selected sign-in role."
+      },
+      {
+        "name": "notification",
+        "value": "0 6px 24px #00000026",
+        "purpose": "Temporary bottom-center notification feedback."
+      },
+      {
+        "name": "dialog",
+        "value": "0 16px 65px #00000035",
+        "purpose": "Native modal dialog separation."
+      }
+    ],
+    "motion": [
+      {
+        "name": "control-transition",
+        "value": "150ms ease",
+        "purpose": "Button background/border and input-border changes."
+      },
+      {
+        "name": "toast-arrival",
+        "value": "250ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "Notification arrival: translateY(8px) to 0, opacity 0.2 to 1, and clip-path inset(15% 0 0 0) to inset(0)."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation: none; transition: none; scroll-behavior: auto",
+        "purpose": "Applied to all elements and pseudo-elements under prefers-reduced-motion: reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "mobile-max",
+        "value": "720px"
+      },
+      {
+        "name": "compact-max",
+        "value": "950px"
+      },
+      {
+        "name": "desktop-compact-max",
+        "value": "1250px"
+      },
+      {
+        "name": "wide-min",
+        "value": "1550px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The main submission or creation action.",
+      "html": "<button class=\"ds-primary\" type=\"button\"><svg class=\"ds-icon\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 5v14M5 12h14\"/></svg> Create an order</button>",
+      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:41px;padding:10px 17px;border:1px solid transparent;border-radius:6px;font-family:Plex, 'Segoe UI', sans-serif;font-size:13px;font-weight:500;line-height:1.4;white-space:nowrap;cursor:pointer;transition:background .15s,border-color .15s;}.ds-primary:disabled{opacity:.45;cursor:not-allowed;}.ds-primary:focus-visible{outline:3px solid #40a99c;outline-offset:3px;}@media(prefers-reduced-motion:reduce){.ds-primary{transition:none!important;animation:none!important;}}.ds-primary{background:var(--teal,#177b70);color:var(--white,#fff);}.ds-primary:hover{background:var(--teal-dark,#10675e);}"
+    },
+    {
+      "name": "Secondary button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Search, filtering, and supporting actions.",
+      "html": "<button class=\"ds-secondary\" type=\"button\">Search orders</button>",
+      "css": ".ds-secondary{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:41px;padding:10px 17px;border:1px solid transparent;border-radius:6px;font-family:Plex, 'Segoe UI', sans-serif;font-size:13px;font-weight:500;line-height:1.4;white-space:nowrap;cursor:pointer;transition:background .15s,border-color .15s;}.ds-secondary:disabled{opacity:.45;cursor:not-allowed;}.ds-secondary:focus-visible{outline:3px solid #40a99c;outline-offset:3px;}@media(prefers-reduced-motion:reduce){.ds-secondary{transition:none!important;animation:none!important;}}.ds-secondary{background:var(--white,#fff);border-color:#ced8dd;color:var(--ink,#23394a);}.ds-secondary:hover{background:#f0f5f4;border-color:#9bb5b0;}"
+    },
+    {
+      "name": "Destructive button",
+      "kind": "button",
+      "refersTo": "button-danger",
+      "description": "Explicit cancellation and destructive confirmation.",
+      "html": "<button class=\"ds-danger\" type=\"button\">Cancel order</button>",
+      "css": ".ds-danger{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:41px;padding:10px 17px;border:1px solid transparent;border-radius:6px;font-family:Plex, 'Segoe UI', sans-serif;font-size:13px;font-weight:500;line-height:1.4;white-space:nowrap;cursor:pointer;transition:background .15s,border-color .15s;}.ds-danger:disabled{opacity:.45;cursor:not-allowed;}.ds-danger:focus-visible{outline:3px solid #40a99c;outline-offset:3px;}@media(prefers-reduced-motion:reduce){.ds-danger{transition:none!important;animation:none!important;}}.ds-danger{background:var(--danger-wash,#fff0ed);border-color:#e9b9b3;color:var(--danger,#a53637);}.ds-danger:hover{background:#fce1dc;}"
+    },
+    {
+      "name": "Compact Add button",
+      "kind": "button",
+      "refersTo": "button-add",
+      "description": "A compact per-row action in the catalog.",
+      "html": "<button class=\"ds-add\" type=\"button\"><svg class=\"ds-icon\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12 5v14M5 12h14\"/></svg> Add</button>",
+      "css": ".ds-add{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:41px;padding:10px 17px;border:1px solid transparent;border-radius:6px;font-family:Plex, 'Segoe UI', sans-serif;font-size:13px;font-weight:500;line-height:1.4;white-space:nowrap;cursor:pointer;transition:background .15s,border-color .15s;}.ds-add:disabled{opacity:.45;cursor:not-allowed;}.ds-add:focus-visible{outline:3px solid #40a99c;outline-offset:3px;}@media(prefers-reduced-motion:reduce){.ds-add{transition:none!important;animation:none!important;}}.ds-add{background:var(--teal-wash,#e9f4f0);color:var(--teal-dark,#10675e);padding:7px 10px;min-height:33px;font-size:11px;}.ds-add:hover{background:#d7eae2;}.ds-add .ds-icon{width:13px;height:13px;}"
+    },
+    {
+      "name": "Text action",
+      "kind": "button",
+      "refersTo": "button-text",
+      "description": "A quiet supporting action beside operational data.",
+      "html": "<button class=\"ds-text\" type=\"button\">Update</button>",
+      "css": ".ds-text{display:inline-flex;align-items:center;gap:7px;color:var(--teal-dark,#10675e);font-family:Plex, 'Segoe UI', sans-serif;font-weight:500;font-size:13px;padding:4px 0;border:0;background:none;cursor:pointer;}.ds-text:hover{text-decoration:underline;}.ds-text:disabled{opacity:.45;cursor:not-allowed;}.ds-text:focus-visible{outline:3px solid #40a99c;outline-offset:3px;}"
+    },
+    {
+      "name": "Native text field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "A labeled field that retains browser form semantics.",
+      "html": "<label class=\"ds-label\" for=\"ds-po\">Purchase order reference</label><input class=\"ds-input\" id=\"ds-po\" name=\"purchase_order\" required maxlength=\"60\" placeholder=\"e.g. GF-NOV-014\">",
+      "css": ".ds-label{display:block;font-family:Plex, 'Segoe UI', sans-serif;color:var(--ink,#23394a);font-size:13px;font-weight:500;line-height:1.5;margin-bottom:7px;}.ds-input{font-family:Plex, 'Segoe UI', sans-serif;font-size:14px;line-height:1.5;border:1px solid #ccd6db;background:var(--white,#fff);border-radius:6px;color:var(--ink,#23394a);min-height:40px;padding:9px 12px;width:100%;caret-color:var(--teal,#177b70);transition:border-color .15s;}.ds-input:hover{border-color:#7a939e;}.ds-input::placeholder{color:#73818b;opacity:1;}.ds-input:focus-visible{outline:3px solid #40a99c;outline-offset:3px;}@media(prefers-reduced-motion:reduce){.ds-input{transition:none!important;animation:none!important;}}"
+    },
+    {
+      "name": "Workspace navigation",
+      "kind": "nav",
+      "refersTo": "nav-active",
+      "description": "A navy destination list with an explicit active location.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Workspace preview\"><a class=\"ds-nav-link ds-active\" href=\"/orders\" aria-current=\"page\"><svg class=\"ds-icon\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"5\" y=\"4\" width=\"14\" height=\"17\" rx=\"2\"/><path d=\"M9 4V2h6v2M9 9h6M9 13h6M9 17h3\"/></svg><span>Orders &amp; tracking</span><span class=\"ds-active-mark\"></span></a><a class=\"ds-nav-link\" href=\"/inventory\"><svg class=\"ds-icon\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m3 7 9-4 9 4-9 4-9-4Zm0 0v10l9 4 9-4V7M12 11v10M7.5 5 17 9\"/></svg><span>Inventory</span></a></nav>",
+      "css": ".ds-nav{display:flex;flex-direction:column;gap:7px;background:var(--navy,#172e43);padding:18px;font-family:Plex, 'Segoe UI', sans-serif;}.ds-nav-link{display:flex;align-items:center;gap:12px;min-height:44px;padding:12px 13px;border-radius:6px;font-size:13px;line-height:1.5;color:#d4e0e7;text-decoration:none;}.ds-nav-link:hover{background:#203d52;color:#fff;}.ds-nav-link.ds-active{background:var(--navy-active,#29485f);color:#fff;font-weight:500;}.ds-active-mark{width:5px;height:5px;border-radius:50%;background:#8bd2c5;margin-left:auto;}.ds-nav .ds-icon{flex:none;}.ds-nav-link:focus-visible{outline:3px solid #40a99c;outline-offset:3px;}"
+    },
+    {
+      "name": "Operational statuses",
+      "kind": "chip",
+      "refersTo": "badge-submitted",
+      "description": "Text-bearing order and inventory statuses with fixed semantic colors.",
+      "html": "<div class=\"ds-badges\"><span class=\"ds-badge ds-submitted\"><span class=\"ds-dot\"></span>Submitted</span><span class=\"ds-badge ds-processing\"><span class=\"ds-dot\"></span>Processing</span><span class=\"ds-badge ds-shipped\"><span class=\"ds-dot\"></span>Shipped</span><span class=\"ds-badge ds-positive\"><span class=\"ds-dot\"></span>Delivered</span><span class=\"ds-badge ds-cancelled\"><span class=\"ds-dot\"></span>Cancelled</span><span class=\"ds-badge ds-low\"><span class=\"ds-dot\"></span>Low stock</span><span class=\"ds-badge ds-critical\"><span class=\"ds-dot\"></span>Expired</span></div>",
+      "css": ".ds-badges{display:flex;flex-wrap:wrap;gap:8px;}.ds-badge{display:inline-flex;align-items:center;gap:5px;font-family:Plex, 'Segoe UI', sans-serif;font-size:10px;font-weight:500;line-height:1.2;padding:5px 8px;border-radius:4px;white-space:nowrap;}.ds-dot{width:4px;height:4px;border-radius:50%;background:currentColor;}.ds-submitted{background:#edf2f7;color:#4b6681;}.ds-processing{background:#fff3dc;color:#875b12;}.ds-shipped{background:#eaf0fc;color:#4866a2;}.ds-positive{background:#e9f4ec;color:#35714b;}.ds-cancelled{background:#eef0f2;color:#53616c;}.ds-low{background:var(--amber-wash,#fff5e4);color:var(--amber,#8c5a12);}.ds-critical{background:var(--danger-wash,#fff0ed);color:var(--danger,#a53637);}"
+    },
+    {
+      "name": "Table panel",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "A flat bordered work surface with a contained, labeled data table.",
+      "html": "<section class=\"ds-panel\"><h2 class=\"ds-panel-title\">Order items</h2><div class=\"ds-table-scroll\" role=\"region\" aria-label=\"Order items preview\" tabindex=\"0\"><table class=\"ds-table\"><caption class=\"ds-caption\">Order items preview</caption><thead><tr><th>Medication</th><th class=\"ds-number\">Packs</th><th class=\"ds-number\">Pack price</th></tr></thead><tbody><tr><td>Amoxicillin 500 mg</td><td class=\"ds-number\">4</td><td class=\"ds-number\">$12.50</td></tr></tbody></table></div></section>",
+      "css": ".ds-panel{background:var(--white,#fff);color:var(--ink,#23394a);border:1px solid var(--line,#e0e6e9);border-radius:var(--radius,12px);overflow:hidden;font-family:Plex, 'Segoe UI', sans-serif;font-variant-numeric:tabular-nums;}.ds-panel-title{margin:0;padding:23px 24px;font-size:16px;font-weight:600;line-height:1.25;letter-spacing:-.025em;}.ds-table-scroll{overflow-x:auto;min-width:0;max-width:100%;}.ds-table{border-collapse:collapse;width:100%;font-size:12px;line-height:1.5;text-align:left;white-space:nowrap;}.ds-table th{background:#f8fafb;border-top:1px solid var(--line,#e0e6e9);border-bottom:1px solid var(--line,#e0e6e9);padding:12px 18px;font-weight:500;color:#617480;font-size:11px;}.ds-table td{padding:16px 18px;border-bottom:1px solid #eaf0f2;}.ds-table tr:last-child td{border-bottom:0;}.ds-table tr:hover td{background:#fcfdfd;}.ds-table th:first-child,.ds-table td:first-child{padding-left:24px;}.ds-table th:last-child,.ds-table td:last-child{padding-right:24px;}.ds-number{text-align:right;}.ds-caption{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;}.ds-table-scroll:focus-visible{outline:3px solid #40a99c;outline-offset:3px;}"
+    },
+    {
+      "name": "Fulfillment strip",
+      "kind": "custom",
+      "refersTo": "tracking-current",
+      "description": "Four connected fulfillment stages with completed, current, and upcoming text.",
+      "html": "<ol class=\"ds-tracking\"><li class=\"ds-reached\"><span class=\"ds-stop\"><svg class=\"ds-icon\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m5 12 4 4L19 6\"/></svg></span><strong>Submitted</strong><small>Complete</small></li><li class=\"ds-reached ds-current\"><span class=\"ds-stop\"><svg class=\"ds-icon\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m3 7 9-4 9 4-9 4-9-4Zm0 0v10l9 4 9-4V7M12 11v10\"/></svg></span><strong>Processing</strong><small>Current status</small></li><li><span class=\"ds-stop\"><svg class=\"ds-icon\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3 5h12v12H3V5Zm12 5h3l3 4v3h-6\"/><circle cx=\"7\" cy=\"18\" r=\"2\"/><circle cx=\"18\" cy=\"18\" r=\"2\"/></svg></span><strong>Shipped</strong><small>Upcoming</small></li><li><span class=\"ds-stop\"><svg class=\"ds-icon\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m5 12 4 4L19 6\"/></svg></span><strong>Delivered</strong><small>Upcoming</small></li></ol>",
+      "css": ".ds-tracking{list-style:none;padding:12px 30px 25px;margin:0;display:flex;background:#fff;font-family:Plex, 'Segoe UI', sans-serif;}.ds-tracking li{position:relative;flex:1;text-align:center;font-size:11px;line-height:1.5;color:#586c79;}.ds-tracking li::before{content:\"\";position:absolute;height:2px;background:#e4eaed;top:17px;left:0;width:100%;}.ds-tracking li:first-child::before{left:50%;width:50%;}.ds-tracking li:last-child::before{width:50%;}.ds-tracking li.ds-reached::before{background:#a2c9b9;}.ds-stop{position:relative;z-index:1;display:grid;place-items:center;width:36px;height:36px;border-radius:50%;background:#edf1f3;color:#82939e;border:5px solid white;box-sizing:content-box;margin:0 auto 7px;top:-5px;}.ds-stop .ds-icon{width:17px;height:17px;}.ds-reached .ds-stop{background:var(--teal-wash,#e9f4f0);color:var(--teal,#177b70);}.ds-current .ds-stop{background:var(--teal,#177b70);color:#fff;}.ds-tracking strong{display:block;font-size:11px;font-weight:600;margin-top:-2px;}.ds-reached strong{color:var(--ink,#23394a);}.ds-tracking small{display:block;font-size:9px;margin-top:4px;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Distribution Service Guide",
+    "overview": "The Distribution Service Guide gives MediSupply a steady, legible working identity. Ink-navy navigation anchors white work surfaces on a cool pale ground; forest and eucalyptus colors identify actions and progress. Light rules, aligned figures, and modest corner rounding support repeated scanning of medication, pack, price, lot, and order information.\n\nIBM Plex Sans carries the entire interface. The product's visual character comes from consistent density and restrained state changes, with a connected fulfillment strip as its recurring progress pattern. Native controls, explicit labels, and text-bearing statuses keep the interface familiar. Motion is brief feedback for an action.",
+    "keyCharacteristics": [
+      "Ink-navy identity with forest and eucalyptus action colors.",
+      "Compact tables, tabular figures, and explicit status text.",
+      "Flat white panels separated by light rules and a cool ground.",
+      "Native form controls and a connected fulfillment strip."
+    ],
+    "rules": [
+      {
+        "name": "The Text-Bearing Status Rule",
+        "body": "Every status pairs its color with a readable label; color and the small dot are supporting signals.",
+        "section": "colors"
+      },
+      {
+        "name": "The Aligned Figures Rule",
+        "body": "Use tabular numerals throughout and right-align price, quantity, and total columns.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Work Surface Rule",
+        "body": "Keep ordinary panels and tables free of shadows; reserve elevation for the selected sign-in role, notifications, and modal dialogs.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do use the established navy, teal, neutral, and status roles for their existing purposes.",
+      "Do keep prices, pack quantities, totals, and dates easy to compare with tabular figures.",
+      "Do retain native labeled controls, visible keyboard focus, and text for every status.",
+      "Do contain wide tables inside labeled, keyboard-focusable horizontal scroll regions.",
+      "Do preserve the compact control scale and the larger panel spacing as separate levels of density.",
+      "Do disable repeated submissions while a request is pending and show errors close to the relevant form."
+    ],
+    "donts": [
+      "Don't turn ordinary data panels into floating cards with shadows.",
+      "Don't replace native selects, numeric inputs, or dialogs with decorative imitations.",
+      "Don't use color alone to communicate availability or order progress.",
+      "Don't let a wide table force the whole page to scroll horizontally.",
+      "Don't extend the brief notification animation into continuous or ambient motion."
+    ]
+  }
+}
